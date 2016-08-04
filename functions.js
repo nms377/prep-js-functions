@@ -55,6 +55,14 @@ console.log(difference(a,b));
  *  Store this value in a variable named `product`
  */
 
+function multiply(n1, n2){
+	var multiply = n1 * n2;
+	return multiply;
+}
+multiply();
+
+console.log(multiply(a,b));
+
 
 /**
  *  #5
