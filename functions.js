@@ -111,6 +111,15 @@ console.log(checkSum(a,b));
  *  then prints the result to the console.
  */
 
+function checkProduct(n1, n2){
+	var product = n1 * n2;
+	var difference = n1 - n2;
+	return product * difference;
+}
+checkProduct();
+
+console.log(checkProduct(a,b));
+
 
 /**
  *  #8
@@ -126,6 +135,14 @@ console.log(checkSum(a,b));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+addThenSubtract (n1, n2, n3){
+
+  var add = n1 + n2;
+  var difference = add - (n1 - n2);
+  var multiply = difference * n3;
+  return ;
+
+}
 
 /**
  *  #9
