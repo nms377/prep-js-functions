@@ -11,7 +11,7 @@
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
- var a = 2
+ var a = 10
  var b = 4
 
 /**
@@ -73,6 +73,14 @@ console.log(multiply(a,b));
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+
+function checkDifference(n1, n2){
+	var difference = n1 - n2;
+	return "My football team lost " + difference + " times this week.";
+}
+checkDifference();
+
+console.log(checkDifference(a,b));
 
 
 /**
