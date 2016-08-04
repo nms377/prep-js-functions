@@ -38,6 +38,14 @@ console.log(add(a,b));
  *  Store this value in a variable named `difference`
  */
 
+function difference(n1, n2){
+	var difference = n1 - n2;
+	return difference;
+}
+difference();
+
+console.log(difference(a,b));
+
 
 /**
  *  #4
