@@ -56,12 +56,12 @@ console.log(difference(a,b));
  */
 
 function multiply(n1, n2){
-	var multiply = n1 * n2;
-	return multiply;
+	var product = n1 * n2;
+	return product;
 }
 multiply();
 
-console.log(multiply(a,b));
+console.log(multiply(b,a));
 
 
 /**
@@ -135,14 +135,14 @@ console.log(checkProduct(a,b));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
-addThenSubtract (n1, n2, n3){
+function (n1, n2, n3){
 
-  var add = n1 + n2;
-  var difference = add - (n1 - n2);
-  var multiply = difference * n3;
-  return ;
-
+	var add = n1 + n2;
+	var subtract = n3
+	return add - subtract;
 }
+
+
 
 /**
  *  #9
