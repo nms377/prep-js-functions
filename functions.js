@@ -135,15 +135,19 @@ console.log(checkProduct(a,b));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
-function (n1, n2, n3){
+var c = 4
+var d = 5
+var e = 7
 
-	var add = n1 + n2;
-	var subtract = n3
-	return add - subtract;
+function addThenSubtract(n1, n2,n3){
+
+add();
+
 }
 
+addThenSubtract();
 
-
+console.log(addThenSubtract(c,d,e));
 /**
  *  #9
  *  Function - addThenMultiply
@@ -172,6 +176,18 @@ function (n1, n2, n3){
  * Store the return value to a variable named `myFullName`
  */
 
+function fullName();{
+
+	var firstName = "Coco";
+	var lastName = "Sandry";
+	var myFullName = firstName + " " + lastName;
+	return myFullName;
+
+}
+
+fullName();
+
+console.log(fullName());
 
 /**
  *  #11
