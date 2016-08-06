@@ -260,6 +260,14 @@ fullName();
 
 console.log(fullName("coco", "sandry"));
 
+/*class work*/
+function createFullName(firstName, lastName){
+	return firstName + " " + lastName;
+}
+
+var myFullName = createFullName("Grace", "Hopper");
+console.log(myFullName);
+
 /**
  *  #11
  *  Function - verifyDrinkingAge
@@ -275,7 +283,12 @@ console.log(fullName("coco", "sandry"));
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
+/*class work*/
 
+/*function verifyDrinkingAge(Age){
+	if age<21, 
+	return ;
+}*/
 /**
  *  #12
  *  Function - throwParty
