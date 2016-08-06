@@ -285,10 +285,15 @@ console.log(myFullName);
 
 /*class work*/
 
-/*function verifyDrinkingAge(Age){
-	if age<21, 
-	return ;
-}*/
+function verifyDrinkingAge(Age){
+	if (Age >=21){
+		return "Can.";
+	} else {
+	return "No can.";}
+}
+verifyDrinkingAge();
+console.log(verifyDrinkingAge(23)); 
+console.log(verifyDrinkingAge(4));
 /**
  *  #12
  *  Function - throwParty
