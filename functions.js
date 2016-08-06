@@ -101,7 +101,8 @@ console.log(product);
  *  value stored in `difference`.
  */
 
-/*my work*/function checkDifference(n1, n2){
+/*my work*/
+function checkDifference(n1, n2){
 	var difference = n1 - n2;
 	return "My football team lost " + difference + " times this week.";
 }
@@ -110,7 +111,13 @@ checkDifference();
 console.log(checkDifference(a,b));
 
 /*class work*/
+function checkDifference(x){
+	/*not necessary, extra step ---> var x = difference;*/
+	return "My football team lost " + x + " times this week.";
 
+}
+checkDifference();
+console.log(checkDifference(difference));
 
 
 /**
