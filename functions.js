@@ -22,13 +22,21 @@
  *  Store this value in a variable named `sum`.
  */
 
-function add(n1, n2){
+/*my work*/function add(n1, n2){
 	var sum = n1 + n2;
 	return sum;
 }
 add();
 
 console.log(add(a,b));
+
+/*Class Work*/function add(n1, n2){
+	return n1 + n2;
+}
+add();
+
+var sum = add(a,b);
+console.log(sum);
 
 /**
  *  #3
@@ -178,8 +186,6 @@ console.log(addThenSubtract(c,d,e));*/
 
 function fullName(first, last){
 
-	/*var firstName = "Coco";
-	var lastName = "Sandry";*/
 	var myFullName = first + " " + last;
 	return myFullName;
 
