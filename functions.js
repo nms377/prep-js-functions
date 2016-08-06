@@ -294,6 +294,17 @@ function verifyDrinkingAge(Age){
 verifyDrinkingAge();
 console.log(verifyDrinkingAge(23)); 
 console.log(verifyDrinkingAge(4));
+
+function verifyDrinkingAge(Age){
+	if (Age <= 21){
+		return false;
+	} else {
+		return true;
+	}
+	}
+	var canDrinkBeer = verifyDrinkingAge(21);
+	console.log(canDrinkBeer);
+
 /**
  *  #12
  *  Function - throwParty
@@ -304,7 +315,15 @@ console.log(verifyDrinkingAge(4));
  *  should be "This Party will have an open bar".
  */
 
-
+function throwParty(){
+	if (canDrinkBeer === false){
+		return "The Party will have tons of Cake!";
+	} else {
+		"The Party will have an open bar."
+	}
+}
+throwParty();
+console.log(throwParty());
 /**
  *  #13
  *  Function - eatFood
@@ -325,6 +344,19 @@ console.log(verifyDrinkingAge(4));
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
+function eatFood (firstName,/* lastName,*/ food){
+
+/*return createFullName(firstName,lastName) + " loves to eat " + food;*/
+
+return myFullName + " loves to eat " + food;
+
+/*	return firstName + " " + lastName + " loves to eat " + food;
+*/
+	/*return myFullName + " loves to eat " + food;*/
+}
+
+eatFood();
+console.log(eatFood(/*"Coco", "Sandry",*/ myFullName, "Pizza"));
 
 /**
  *  #14
@@ -337,4 +369,6 @@ console.log(verifyDrinkingAge(4));
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
+
+
 
