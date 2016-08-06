@@ -22,7 +22,8 @@
  *  Store this value in a variable named `sum`.
  */
 
-/*my work*/function add(n1, n2){
+/*my work*/
+function add(n1, n2){
 	var sum = n1 + n2;
 	return sum;
 }
@@ -30,7 +31,8 @@ add();
 
 console.log(add(a,b));
 
-/*Class Work*/function add(n1, n2){
+/*Class Work*/
+function add(n1, n2){
 	return n1 + n2;
 }
 add();
@@ -46,6 +48,7 @@ console.log(sum);
  *  Store this value in a variable named `difference`
  */
 
+/*my work*/
 function difference(n1, n2){
 	var difference = n1 - n2;
 	return difference;
@@ -54,6 +57,13 @@ difference();
 
 console.log(difference(a,b));
 
+/*class work*/
+function subtract(n1, n2){
+	return n1 - n2;
+}
+
+var difference = subtract(b,a)
+console.log(difference);
 
 /**
  *  #4
@@ -63,6 +73,7 @@ console.log(difference(a,b));
  *  Store this value in a variable named `product`
  */
 
+/*my work*/
 function multiply(n1, n2){
 	var product = n1 * n2;
 	return product;
@@ -71,6 +82,14 @@ multiply();
 
 console.log(multiply(b,a));
 
+/*class work*/
+
+function multiply(n1,n2){
+	return n1 * n2;
+}
+
+var product = multiply(a,b);
+console.log(product);
 
 /**
  *  #5
@@ -82,13 +101,16 @@ console.log(multiply(b,a));
  *  value stored in `difference`.
  */
 
-function checkDifference(n1, n2){
+/*my work*/function checkDifference(n1, n2){
 	var difference = n1 - n2;
 	return "My football team lost " + difference + " times this week.";
 }
 checkDifference();
 
 console.log(checkDifference(a,b));
+
+/*class work*/
+
 
 
 /**
