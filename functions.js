@@ -224,6 +224,14 @@ console.log(addThenSubtract(product, difference, sum));
  *  Store the return of this function to a variable named `howMany`
  */
 
+/*class work*/
+function addThenMultiply(n1, n2, n3){
+	var sumUp = n1 + n2;
+	return sumUp * n3;
+	/*short hand --> return (n1 + n2) *n3 */
+}
+addThenMultiply();
+console.log(addThenMultiply(product, difference,sum));
 
 /**
  *  #10
