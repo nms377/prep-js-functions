@@ -130,7 +130,7 @@ console.log(checkDifference(difference));
  *  stored in the variable `sum`.
  */
 
-function checkSum(n1, n2){
+/*my work*/function checkSum(n1, n2){
 	var sum = n1 + n2;
 	return "I CAN ADDZ " + sum + " NUMBERS";
 }
@@ -138,6 +138,14 @@ checkSum();
 
 console.log(checkSum(a,b));
 
+/*class work*/
+function checkSum(x){
+	return "I CAN ADDZ " + x + " NUMBERS";
+
+}
+
+checkSum();
+console.log(checkSum(sum));
 
 /**
  *  #7
@@ -148,6 +156,7 @@ console.log(checkSum(a,b));
  *  then prints the result to the console.
  */
 
+/*my work*/
 function checkProduct(n1, n2){
 	var product = n1 * n2;
 	var difference = n1 - n2;
@@ -156,6 +165,13 @@ function checkProduct(n1, n2){
 checkProduct();
 
 console.log(checkProduct(a,b));
+
+/*class work*/
+function checkProduct(n1,n2){
+	return n1*n2;
+}
+checkProduct();
+console.log(checkProduct(product, difference));
 
 
 /**
@@ -172,7 +188,8 @@ console.log(checkProduct(a,b));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
-/*var c = 4
+/* My work doesn't work --->
+var c = 4
 var d = 5
 var e = 7
 
@@ -185,6 +202,16 @@ add();
 addThenSubtract();
 
 console.log(addThenSubtract(c,d,e));*/
+
+/*class work*/
+
+function addThenSubtract(n1, n2, n3){
+	/*Orer of Operations ---> return (n1 + n2) - n3;*/
+	var sumUp = n1 + n2;
+	return sumUp - n3;
+}
+addThenSubtract();
+console.log(addThenSubtract(product, difference, sum));
 /**
  *  #9
  *  Function - addThenMultiply
@@ -213,6 +240,7 @@ console.log(addThenSubtract(c,d,e));*/
  * Store the return value to a variable named `myFullName`
  */
 
+/*my work */
 function fullName(first, last){
 
 	var myFullName = first + " " + last;
